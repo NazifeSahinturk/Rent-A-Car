@@ -11,7 +11,7 @@ import { CarService } from 'src/app/shared/services/car.service';
 export class CarComponent implements OnInit{
   cars:Car[];
   text:string;
-
+ nazife:""
   constructor(private router:Router, private carService:CarService, private activetedRoute:ActivatedRoute){
   }
 
