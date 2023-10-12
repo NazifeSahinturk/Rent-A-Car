@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NaviComponent } from './components/navi/navi.component';
 import { Not404Component } from './components/not404/not404.component';
-import { FilterPipe } from './pipes/filter.pipe';
+
 
 
 
@@ -10,7 +10,7 @@ import { FilterPipe } from './pipes/filter.pipe';
   declarations: [
     NaviComponent,
     Not404Component,
-    FilterPipe
+    
   ],
   imports: [
     CommonModule
@@ -18,7 +18,7 @@ import { FilterPipe } from './pipes/filter.pipe';
   exports:[
     NaviComponent,
     Not404Component,
-    FilterPipe
+    
   ]
 })
 export class SharedModule { }
